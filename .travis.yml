@@ -33,10 +33,10 @@ after_success:
 
 deploy:
   provider: s3
-  access_key_id: AKIAJYY6UT5EHUXEKWCA
+  access_key_id: AKIAIRSVNG47S53REZNQ
   secret_access_key:
-    secure: "Ogjfu+wBbKDtY1VJQnfGejNcxPx2iEwlSgEeTHC7M5jyuSIdYdaf0IbJ9LlDSxA/vcO/NbGOzEdPKevuiRgcU7Bj+J7tlOrvw6WC4R1RK4JQNowuxoDOwNlAvPD5O5DMiIwku+xbjcxyIwU1yPWIjCgpOmAAHMgBeYI+4+N9Ggk="
-  bucket: adv-r.had.co.nz
+    secure: "EKtnR5v+AYBPSws9IFBGPBLdGaooEAyI6wP+Pjvo"
+  bucket: hwe.analytics
   region: us-west-2
   local-dir: _site
   skip_cleanup: true
